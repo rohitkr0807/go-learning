@@ -1,0 +1,23 @@
+Need for Efficiency 
+Before Go, a developer had to choose between fast execution but slow and inefficient building (like C++) or efficient compilation but not so fast execution (like .NET or Java),
+or ease of programming but slower execution (like dynamic languages such as Python, Ruby or JavaScript). Go is an attempt to combine all the three wishes: efficient and fast compilation, fast execution, and ease of programming.
+
+
+The main target of Golang’s design was to combine the efficacy, speed, and safety of a statically typed and compiled language with the ease of programming of a dynamic language to make programming more fun again.
+
+Some other targets that Go was meant to meet were:
+
+Support for network communication, concurrency, and parallelization
+Support for excellent building speed
+Support for memory management
+
+
+
+Because memory problems (memory leaks) are a long-time problem of C++,
+Go’s designers decided that memory management should not be the responsibility of a developer. So although Go executes native code,
+it runs in a small runtime, which takes care of an efficient and fast garbage collection. Go also has a built-in runtime reflection capability.
+
+
+
+
+
